@@ -1,7 +1,6 @@
 PA4: kNN & AUC
 ===============	
 
->> `  `
 
 The folder [knn-pa4/] contains the following files and subfolders: 
    1. [datasets/]
