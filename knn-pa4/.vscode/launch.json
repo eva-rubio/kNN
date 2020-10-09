@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Evaluation<knn-eval-solutions-hank_13f8e8d2>",
+            "request": "launch",
+            "mainClass": "Evaluation",
+            "projectName": "knn-eval-solutions-hank_13f8e8d2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kNNhank<knn-eval-solutions-hank_13f8e8d2>",
+            "request": "launch",
+            "mainClass": "kNNhank",
+            "projectName": "knn-eval-solutions-hank_13f8e8d2",
+            "args": [
+                "../datasets/sms/train.csv",
+                "../datasets/sms/dev.csv",
+                "2",
+                "euclidean",
+                "spam"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecisionTree",
+            "request": "launch",
+            "mainClass": "DecisionTree"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kNN",
+            "request": "launch",
+            "mainClass": "kNN"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kNN2",
+            "request": "launch",
+            "mainClass": "kNN2"
+        }
+    ]
+}
